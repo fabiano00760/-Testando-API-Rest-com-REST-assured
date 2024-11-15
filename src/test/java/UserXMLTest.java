@@ -1,7 +1,13 @@
-import io.restassured.RestAssured;
+
 import org.junit.Test;
 
 import static io.restassured.RestAssured.given;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
+
+import java.util.ArrayList;
+import java.util.List;
+
 import static org.hamcrest.CoreMatchers.*;
 
 public class UserXMLTest {
@@ -24,4 +30,8 @@ public class UserXMLTest {
         System.out.println(resposta); // Imprime a resposta completa para análise
     }
 
-}
+
+
+
+    }
+
